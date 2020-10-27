@@ -83,7 +83,7 @@ def write_test_data_to_files(datasets):
     __write_to_file(JIRA_DATASET_CUSTOM_ISSUES, issues)
 
     keys = datasets[PROJECTS]
-    __write_to_file(JIRA_DATASET_PROJECTS, keys)
+   # __write_to_file(JIRA_DATASET_PROJECTS, keys)
 
 
 def __write_to_file(file_path, items):
